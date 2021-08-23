@@ -1,0 +1,5 @@
+ <?php if(isset($_SESSION['username'])){ ?>
+      <h1 class="logo me-auto"><a href="form.php">Olectra</a></h1>
+          <?php }else{ ?>
+            <h1 class="logo me-auto"><a href="index.php">Olectra</a></h1>
+        <?php } //replace 2 with 1 ?>
